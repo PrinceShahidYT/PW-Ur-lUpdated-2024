@@ -6,6 +6,6 @@ const policySchema = new mongoose.Schema({
     main_url: { type: String }
 });
 
-const Model = mongoose.model("Test", policySchema);
+const Model = mongoose.model("Admin", policySchema);
 
 module.exports = Model;
