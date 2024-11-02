@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-const mongoose = require("mongoose");
 const Model = require('./Model')
 const axios = require('axios');
 const crypto = require('crypto');
